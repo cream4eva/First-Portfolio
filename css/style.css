@@ -28,3 +28,13 @@ h6 {
 p {
   margin: 0;
 }
+
+.images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-areas:
+    "surf surf "
+    "led calc"
+    "pastel run";
+}
