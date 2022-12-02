@@ -38,3 +38,28 @@ p {
     "led calc"
     "pastel run";
 }
+
+#surf {
+  grid-area: surf;
+  background-image: url(/images/02-portfolio-4.jpg);
+}
+
+#led {
+  grid-area: led;
+  background-image: url(/images/02-portfolio-1.jpg);
+}
+
+#calc {
+  grid-area: calc;
+  background-image: url(/images/02-portfolio-2.jpg);
+}
+
+#pastel {
+  grid-area: pastel;
+  background-image: url(/images/02-portfolio-3.jpg);
+}
+
+#run {
+  grid-area: run;
+  background-image: url(/images/02-run-buddy.jpg);
+}
