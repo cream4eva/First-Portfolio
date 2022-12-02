@@ -71,3 +71,14 @@ p {
   background-image: url(/images/02-run-buddy.jpg);
   border: solid aquamarine 5px;
 }
+
+.heading {
+  text-align: center;
+  position: absolute;
+  background-color: aquamarine;
+  padding: 8px;
+  height: 30px;
+  width: 150px;
+  color: black;
+  font-size: 18px;
+}
