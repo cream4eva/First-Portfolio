@@ -30,6 +30,7 @@ p {
 }
 
 .images {
+  margin: 0px 5%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 300px 300px 300px;
@@ -37,29 +38,36 @@ p {
     "surf surf "
     "led calc"
     "pastel run";
+  column-gap: 10px;
+  row-gap: 20px;
 }
 
 #surf {
   grid-area: surf;
   background-image: url(/images/02-portfolio-4.jpg);
+  border: solid aquamarine 5px;
 }
 
 #led {
   grid-area: led;
   background-image: url(/images/02-portfolio-1.jpg);
+  border: solid aquamarine 5px;
 }
 
 #calc {
   grid-area: calc;
   background-image: url(/images/02-portfolio-2.jpg);
+  border: solid aquamarine 5px;
 }
 
 #pastel {
   grid-area: pastel;
   background-image: url(/images/02-portfolio-3.jpg);
+  border: solid aquamarine 5px;
 }
 
 #run {
   grid-area: run;
   background-image: url(/images/02-run-buddy.jpg);
+  border: solid aquamarine 5px;
 }
