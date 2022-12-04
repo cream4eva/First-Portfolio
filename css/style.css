@@ -77,11 +77,6 @@ p {
   padding: 20px;
 }
 
-.contactMe {
-  border-left: solid;
-  padding: 20px;
-}
-
 #surf {
   grid-area: surf;
   background-image: url(/images/02-portfolio-4.jpg);
@@ -121,6 +116,22 @@ p {
   width: 150px;
   color: black;
   font-size: 18px;
+}
+
+.contactMe {
+  border-left: solid;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.contactDetails {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 70em) {
