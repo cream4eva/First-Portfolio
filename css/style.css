@@ -67,7 +67,6 @@ p {
 }
 
 .images {
-  margin: 0px 5%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 300px 100px 100px;
