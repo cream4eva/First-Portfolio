@@ -152,7 +152,31 @@ p {
 }
 
 @media only screen and (max-width: 70em) {
+  body {
+    background-color: #a98467;
+  }
+
+  .images {
+    grid-template-areas:
+      "surf"
+      "led"
+      "calc"
+      "pastel"
+      "run";
+  }
 }
 
 @media only screen and (max-width: 50em) {
+  body {
+    background-color: #e26d5c;
+  }
+
+  .images {
+    grid-template-areas:
+      "surf"
+      "led"
+      "calc"
+      "pastel"
+      "run";
+  }
 }
