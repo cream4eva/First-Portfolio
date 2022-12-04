@@ -57,20 +57,29 @@ p {
   right: 10px;
 }
 
-/* .hr {
-} */
+.aboutMe {
+  border-left: solid;
+  padding: 20px;
+}
 
 .images {
   margin: 0px 5%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 400px 100px 100px;
+  grid-template-rows: 300px 100px 100px;
   grid-template-areas:
     "surf surf "
     "led calc"
     "pastel run";
   column-gap: 10px;
   row-gap: 20px;
+  border-left: solid;
+  padding: 20px;
+}
+
+.contactMe {
+  border-left: solid;
+  padding: 20px;
 }
 
 #surf {
