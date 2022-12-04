@@ -29,6 +29,19 @@ p {
   margin: 0;
 }
 
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 5%;
+}
+
+.navigation {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .images {
   margin: 0px 5%;
   display: grid;
