@@ -156,7 +156,15 @@ p {
     background-color: #a98467;
   }
 
+  .container {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    gap: 20px;
+  }
+
   .images {
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px;
     grid-template-areas:
       "surf"
       "led"
@@ -168,10 +176,18 @@ p {
 
 @media only screen and (max-width: 50em) {
   body {
-    background-color: #e26d5c;
+    background-color: #f94144;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: 20px;
   }
 
   .images {
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px;
     grid-template-areas:
       "surf"
       "led"
