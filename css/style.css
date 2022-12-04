@@ -42,6 +42,9 @@ p {
   justify-content: space-around;
 }
 
+.hero-banner {
+  background-image: url(/images/programmer.png);
+}
 .images {
   margin: 0px 5%;
   display: grid;
