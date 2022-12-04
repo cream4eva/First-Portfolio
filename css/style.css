@@ -42,9 +42,13 @@ p {
   justify-content: space-around;
 }
 
-.hero-banner {
+/* .hero-banner {
   background-image: url(/images/programmer.png);
-}
+} */
+
+/* .hr {
+} */
+
 .images {
   margin: 0px 5%;
   display: grid;
@@ -97,4 +101,10 @@ p {
   width: 150px;
   color: black;
   font-size: 18px;
+}
+
+@media only screen and (max-width: 70em) {
+}
+
+@media only screen and (max-width: 50em) {
 }
